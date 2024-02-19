@@ -82,6 +82,7 @@ class AiZynthFinder:
         self.search_stats: StrDict = dict()
         self.routes = RouteCollection([])
         self.analysis: Optional[TreeAnalysis] = None
+        print('aizynthfinder类对象创建成功')
 
     @property
     def target_smiles(self) -> str:
